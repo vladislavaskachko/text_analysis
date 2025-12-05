@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="films">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="film" type="filmType" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name="filmType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="genres" type="genresType"/>
+            <xs:element name="directors" type="directorsType"/>
+            <xs:element name="composers" type="composersType"/>
+            <xs:element name="cast" type="castType"/>
+            <xs:element name="releaseDate" type="xs:date"/>
+            <xs:element name="boxOffice" type="boxOfficeType"/>
+            <xs:element name="ageRating" type="ageRatingType"/>
+            <xs:element name="viewerCount" type="xs:positiveInteger"/>
+            <xs:element name="originalLanguage" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+    </xs:complexType>
+    
+    <xs:complexType name="genresType">
+        <xs:sequence>
+            <xs:element name="genre" type="xs:string" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="directorsType">
+        <xs:sequence>
+            <xs:element name="director" type="xs:string" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="composersType">
+        <xs:sequence>
+            <xs:element name="composer" type="xs:string" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="castType">
+        <xs:sequence>
+            <xs:element name="actor" type="xs:string" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="boxOfficeType">
+        <xs:simpleContent>
+            <xs:extension base="xs:positiveInteger">
+                <xs:attribute name="currency" type="currencyType" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:simpleType name="currencyType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="USD"/>
+            <xs:enumeration value="EUR"/>
+            <xs:enumeration value="RUB"/>
+            <xs:enumeration value="GBP"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="ageRatingType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="0+"/>
+            <xs:enumeration value="6+"/>
+            <xs:enumeration value="12+"/>
+            <xs:enumeration value="16+"/>
+            <xs:enumeration value="18+"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>

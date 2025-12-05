@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/films.schema.json",
+  "title": "Films Catalog",
+  "description": "Схема для каталога фильмов",
+  "type": "object",
+  "required": ["films"],
+  "properties": {
+    "films": {
+      "type": "array",
+      "description": "Массив фильмов",
+      "items": {
+        "$ref": "#/$defs/film"
+      },
+      "minItems": 1
+    }
+  },
+  "$defs": {
+    "film": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "genres",
+        "directors",
+        "composers",
+        "cast",
+        "releaseDate",
+        "boxOffice",
+        "ageRating",
+        "viewerCount",
+        "originalLanguage"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "description": "Уникальный идентификатор фильма",
+          "minimum": 1
+        },
+        "title": {
+          "type": "string",
+          "description": "Название фильма",
+          "minLength": 1
+        },
+        "genres": {
+          "type": "array",
+          "description": "Список жанров",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "directors": {
+          "type": "array",
+          "description": "Список режиссёров",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "composers": {
+          "type": "array",
+          "description": "Список композиторов",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "cast": {
+          "type": "array",
+          "description": "Актёрский состав",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "releaseDate": {
+          "type": "string",
+          "description": "Дата выхода фильма",
+          "format": "date"
+        },
+        "boxOffice": {
+          "type": "object",
+          "description": "Кассовые сборы",
+          "required": ["amount", "currency"],
+          "properties": {
+            "amount": {
+              "type": "integer",
+              "description": "Сумма сборов",
+              "minimum": 0
+            },
+            "currency": {
+              "type": "string",
+              "description": "Валюта",
+              "enum": ["USD", "EUR", "RUB", "GBP"]
+            }
+          }
+        },
+        "ageRating": {
+          "type": "string",
+          "description": "Возрастной рейтинг",
+          "enum": ["G", "PG", "PG-13", "R", "NC-17", "0+", "6+", "12+", "16+", "18+"]
+        },
+        "viewerCount": {
+          "type": "integer",
+          "description": "Количество зрителей",
+          "minimum": 0
+        },
+        "originalLanguage": {
+          "type": "string",
+          "description": "Язык оригинала",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

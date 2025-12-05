@@ -1,0 +1,334 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Каталог фильмов</title>
+<style>
+                    body {
+                        font-family: 'Segoe UI', Arial, sans-serif;
+                        background-color: #1a1a2e;
+                        color: #eaeaea;
+                        padding: 20px;
+                        margin: 0;
+                    }
+                    
+                    h1 {
+                        text-align: center;
+                        color: #e94560;
+                        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+                        margin-bottom: 30px;
+                    }
+                    
+                    table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        margin: 0 auto;
+                        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+                    }
+                    
+                    th {
+                        background: linear-gradient(135deg, #e94560, #0f3460);
+                        color: white;
+                        padding: 15px 10px;
+                        text-align: left;
+                        font-weight: bold;
+                        border: 1px solid #16213e;
+                    }
+                    
+                    td {
+                        padding: 12px 10px;
+                        border: 1px solid #16213e;
+                        vertical-align: top;
+                    }
+                    
+                    tr:nth-child(even) {
+                        background-color: #16213e;
+                    }
+                    
+                    tr:nth-child(odd) {
+                        background-color: #0f3460;
+                    }
+                    
+                    tr:hover {
+                        background-color: #533483;
+                        transition: background-color 0.3s ease;
+                    }
+                    
+                    .genre-tag {
+                        display: inline-block;
+                        background-color: #e94560;
+                        color: white;
+                        padding: 3px 8px;
+                        margin: 2px;
+                        border-radius: 12px;
+                        font-size: 0.85em;
+                    }
+                    
+                    .actor-list {
+                        font-size: 0.9em;
+                        line-height: 1.6;
+                    }
+                    
+                    .money {
+                        color: #4ecca3;
+                        font-weight: bold;
+                    }
+                    
+                    .rating {
+                        display: inline-block;
+                        background-color: #ff9800;
+                        color: black;
+                        padding: 3px 8px;
+                        border-radius: 4px;
+                        font-weight: bold;
+                    }
+                    
+                    .footer {
+                        text-align: center;
+                        margin-top: 20px;
+                        color: #888;
+                    }
+                </style>
+</head>
+<body>
+<h1>🎬 Каталог фильмов</h1>
+<table>
+<tr>
+<th>ID</th>
+<th>Название</th>
+<th>Жанры</th>
+<th>Режиссёр</th>
+<th>Композитор</th>
+<th>Актёры</th>
+<th>Дата выхода</th>
+<th>Сборы</th>
+<th>Рейтинг</th>
+<th>Зрители</th>
+<th>Язык</th>
+</tr>
+<tr>
+<td>1</td>
+<td><strong>Персона</strong></td>
+<td>
+<span class="genre-tag">Драма</span><span class="genre-tag">Психологический триллер</span>
+</td>
+<td>Ингмар Бергман</td>
+<td>Ларс Юхан Верле</td>
+<td class="actor-list">Биби Андерссон, Лив Ульман, Маргарета Крок, Гуннар Бьёрнстранд</td>
+<td>1966-10-18</td>
+<td class="money">250,000 USD</td>
+<td><span class="rating">16+</span></td>
+<td>500,000</td>
+<td>Шведский</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Изображая жертву</strong></td>
+<td>
+<span class="genre-tag">Драма</span><span class="genre-tag">Чёрная комедия</span>
+</td>
+<td>Кирилл Серебренников</td>
+<td>Александр Маноцков</td>
+<td class="actor-list">Юрий Чурсин, Марат Башаров, Лия Ахеджакова, Виталий Хаев, Анна Михалкова</td>
+<td>2006-06-19</td>
+<td class="money">15,000,000 RUB</td>
+<td><span class="rating">18+</span></td>
+<td>120,000</td>
+<td>Русский</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Солнцестояние</strong></td>
+<td>
+<span class="genre-tag">Ужасы</span><span class="genre-tag">Фолк-хоррор</span><span class="genre-tag">Драма</span>
+</td>
+<td>Ари Астер</td>
+<td>The Haxan Cloak</td>
+<td class="actor-list">Флоренс Пью, Джек Рейнор, Уильям Джексон Харпер, Вильхельм Бломгрен, Уилл Поултер, Эллора Торчиа</td>
+<td>2019-07-03</td>
+<td class="money">47,900,000 USD</td>
+<td><span class="rating">18+</span></td>
+<td>3,500,000</td>
+<td>Английский</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Меланхолия</strong></td>
+<td>
+<span class="genre-tag">Драма</span><span class="genre-tag">Фантастика</span><span class="genre-tag">Арт-хаус</span>
+</td>
+<td>Ларс фон Триер</td>
+<td>Рихард Вагнер</td>
+<td class="actor-list">Кирстен Данст, Шарлотта Генсбур, Кифер Сазерленд, Шарлотта Рэмплинг, Джон Хёрт, Александр Скарсгард</td>
+<td>2011-05-18</td>
+<td class="money">16,000,000 USD</td>
+<td><span class="rating">16+</span></td>
+<td>2,000,000</td>
+<td>Английский</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Восемь с половиной</strong></td>
+<td>
+<span class="genre-tag">Драма</span><span class="genre-tag">Арт-хаус</span><span class="genre-tag">Фэнтези</span>
+</td>
+<td>Федерико Феллини</td>
+<td>Нино Рота</td>
+<td class="actor-list">Марчелло Мастроянни, Клаудия Кардинале, Анук Эме, Сандра Мило, Барбара Стил</td>
+<td>1963-02-14</td>
+<td class="money">2,000,000 USD</td>
+<td><span class="rating">16+</span></td>
+<td>5,000,000</td>
+<td>Итальянский</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Анатомия падения</strong></td>
+<td>
+<span class="genre-tag">Драма</span><span class="genre-tag">Триллер</span><span class="genre-tag">Судебная драма</span>
+</td>
+<td>Жюстин Трие</td>
+<td>50 Cent</td>
+<td class="actor-list">Сандра Хюллер, Сванн Арло, Мило Машадо Гранер, Антуан Рейнарц, Самюэль Тейс</td>
+<td>2023-05-21</td>
+<td class="money">50,000,000 EUR</td>
+<td><span class="rating">18+</span></td>
+<td>4,500,000</td>
+<td>Французский</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>Бесславные ублюдки</strong></td>
+<td>
+<span class="genre-tag">Боевик</span><span class="genre-tag">Военный</span><span class="genre-tag">Драма</span><span class="genre-tag">Комедия</span>
+</td>
+<td>Квентин Тарантино</td>
+<td>Эннио Морриконе</td>
+<td class="actor-list">Брэд Питт, Кристоф Вальц, Мелани Лоран, Майкл Фассбендер, Эли Рот, Даян Крюгер, Тиль Швайгер</td>
+<td>2009-05-20</td>
+<td class="money">321,500,000 USD</td>
+<td><span class="rating">18+</span></td>
+<td>25,000,000</td>
+<td>Английский</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Чёрный лебедь</strong></td>
+<td>
+<span class="genre-tag">Триллер</span><span class="genre-tag">Драма</span><span class="genre-tag">Психологический триллер</span>
+</td>
+<td>Даррен Аронофски</td>
+<td>Клинт Мэнселл</td>
+<td class="actor-list">Натали Портман, Мила Кунис, Венсан Кассель, Барбара Херши, Вайнона Райдер</td>
+<td>2010-09-01</td>
+<td class="money">329,400,000 USD</td>
+<td><span class="rating">18+</span></td>
+<td>20,000,000</td>
+<td>Английский</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>Пила</strong></td>
+<td>
+<span class="genre-tag">Ужасы</span><span class="genre-tag">Триллер</span><span class="genre-tag">Детектив</span>
+</td>
+<td>Джеймс Ван</td>
+<td>Чарли Клоузер</td>
+<td class="actor-list">Кэри Элвес, Ли Уоннелл, Дэнни Гловер, Моника Поттер, Тобин Белл</td>
+<td>2004-01-19</td>
+<td class="money">103,900,000 USD</td>
+<td><span class="rating">18+</span></td>
+<td>15,000,000</td>
+<td>Английский</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>Жить</strong></td>
+<td><span class="genre-tag">Драма</span></td>
+<td>Василий Сигарев</td>
+<td>Павел Додонов</td>
+<td class="actor-list">Яна Троянова, Ольга Лапшина, Алексей Филимонов, Евгения Образцова</td>
+<td>2012-01-26</td>
+<td class="money">8,000,000 RUB</td>
+<td><span class="rating">18+</span></td>
+<td>50,000</td>
+<td>Русский</td>
+</tr>
+<tr>
+<td>11</td>
+<td><strong>Зона интересов</strong></td>
+<td>
+<span class="genre-tag">Драма</span><span class="genre-tag">Исторический</span><span class="genre-tag">Военный</span>
+</td>
+<td>Джонатан Глейзер</td>
+<td>Мика Леви</td>
+<td class="actor-list">Кристиан Фридель, Сандра Хюллер, Иоганн Карнер, Луис Ноа Виттиш, Нели Аренд, Лили Яльник</td>
+<td>2023-05-19</td>
+<td class="money">53,200,000 USD</td>
+<td><span class="rating">16+</span></td>
+<td>4,000,000</td>
+<td>Немецкий</td>
+</tr>
+<tr>
+<td>12</td>
+<td><strong>Забавные игры</strong></td>
+<td>
+<span class="genre-tag">Триллер</span><span class="genre-tag">Ужасы</span><span class="genre-tag">Криминал</span>
+</td>
+<td>Михаэль Ханеке</td>
+<td>Без композитора</td>
+<td class="actor-list">Сюзанна Лотар, Ульрих Мюэ, Арно Фриш, Франк Гиринг</td>
+<td>1997-05-14</td>
+<td class="money">500,000 EUR</td>
+<td><span class="rating">18+</span></td>
+<td>300,000</td>
+<td>Немецкий</td>
+</tr>
+<tr>
+<td>13</td>
+<td><strong>Белая лента</strong></td>
+<td>
+<span class="genre-tag">Драма</span><span class="genre-tag">Детектив</span><span class="genre-tag">Исторический</span>
+</td>
+<td>Михаэль Ханеке</td>
+<td>Без композитора</td>
+<td class="actor-list">Кристиан Фридель, Леони Бенеш, Ульрих Тукур, Урсина Ларди, Бургхарт Клаусснер, Сюзанна Лотар</td>
+<td>2009-05-21</td>
+<td class="money">30,000,000 EUR</td>
+<td><span class="rating">16+</span></td>
+<td>3,000,000</td>
+<td>Немецкий</td>
+</tr>
+<tr>
+<td>14</td>
+<td><strong>Метрополис</strong></td>
+<td>
+<span class="genre-tag">Фантастика</span><span class="genre-tag">Драма</span><span class="genre-tag">Немое кино</span>
+</td>
+<td>Фриц Ланг</td>
+<td>Готтфрид Хуппертц</td>
+<td class="actor-list">Бригитта Хельм, Альфред Абель, Густав Фрёлих, Рудольф Кляйн-Рогге</td>
+<td>1927-01-10</td>
+<td class="money">1,300,000 USD</td>
+<td><span class="rating">12+</span></td>
+<td>10,000,000</td>
+<td>Немецкий</td>
+</tr>
+<tr>
+<td>15</td>
+<td><strong>М убийца</strong></td>
+<td>
+<span class="genre-tag">Триллер</span><span class="genre-tag">Криминал</span><span class="genre-tag">Нуар</span>
+</td>
+<td>Фриц Ланг</td>
+<td>Без композитора</td>
+<td class="actor-list">Петер Лорре, Эллен Видман, Инге Ландгут, Отто Вернике, Густав Грюндгенс</td>
+<td>1931-05-11</td>
+<td class="money">200,000 USD</td>
+<td><span class="rating">16+</span></td>
+<td>2,000,000</td>
+<td>Немецкий</td>
+</tr>
+</table>
+<div class="footer"><p>Всего фильмов в каталоге: 15</p></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!-- films.dtd -->
+<!ELEMENT films (film+)>
+
+<!ELEMENT film (title, genres, directors, composers, cast, releaseDate, boxOffice, ageRating, viewerCount, originalLanguage)>
+<!ATTLIST film id ID #REQUIRED>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT genres (genre+)>
+<!ELEMENT genre (#PCDATA)>
+
+<!ELEMENT directors (director+)>
+<!ELEMENT director (#PCDATA)>
+
+<!ELEMENT composers (composer+)>
+<!ELEMENT composer (#PCDATA)>
+
+<!ELEMENT cast (actor+)>
+<!ELEMENT actor (#PCDATA)>
+
+<!ELEMENT releaseDate (#PCDATA)>
+
+<!ELEMENT boxOffice (#PCDATA)>
+<!ATTLIST boxOffice currency CDATA #REQUIRED>
+
+<!ELEMENT ageRating (#PCDATA)>
+<!ELEMENT viewerCount (#PCDATA)>
+<!ELEMENT originalLanguage (#PCDATA)>

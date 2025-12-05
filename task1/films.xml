@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<films>
+    <film id="1">
+        <title>Персона</title>
+        <genres>
+            <genre>Драма</genre>
+            <genre>Психологический триллер</genre>
+        </genres>
+        <directors>
+            <director>Ингмар Бергман</director>
+        </directors>
+        <composers>
+            <composer>Ларс Юхан Верле</composer>
+        </composers>
+        <cast>
+            <actor>Биби Андерссон</actor>
+            <actor>Лив Ульман</actor>
+            <actor>Маргарета Крок</actor>
+            <actor>Гуннар Бьёрнстранд</actor>
+        </cast>
+        <releaseDate>1966-10-18</releaseDate>
+        <boxOffice currency="USD">250000</boxOffice>
+        <ageRating>16+</ageRating>
+        <viewerCount>500000</viewerCount>
+        <originalLanguage>Шведский</originalLanguage>
+    </film>
+
+    <film id="2">
+        <title>Изображая жертву</title>
+        <genres>
+            <genre>Драма</genre>
+            <genre>Чёрная комедия</genre>
+        </genres>
+        <directors>
+            <director>Кирилл Серебренников</director>
+        </directors>
+        <composers>
+            <composer>Александр Маноцков</composer>
+        </composers>
+        <cast>
+            <actor>Юрий Чурсин</actor>
+            <actor>Марат Башаров</actor>
+            <actor>Лия Ахеджакова</actor>
+            <actor>Виталий Хаев</actor>
+            <actor>Анна Михалкова</actor>
+        </cast>
+        <releaseDate>2006-06-19</releaseDate>
+        <boxOffice currency="RUB">15000000</boxOffice>
+        <ageRating>18+</ageRating>
+        <viewerCount>120000</viewerCount>
+        <originalLanguage>Русский</originalLanguage>
+    </film>
+
+    <film id="3">
+        <title>Солнцестояние</title>
+        <genres>
+            <genre>Ужасы</genre>
+            <genre>Фолк-хоррор</genre>
+            <genre>Драма</genre>
+        </genres>
+        <directors>
+            <director>Ари Астер</director>
+        </directors>
+        <composers>
+            <composer>The Haxan Cloak</composer>
+        </composers>
+        <cast>
+            <actor>Флоренс Пью</actor>
+            <actor>Джек Рейнор</actor>
+            <actor>Уильям Джексон Харпер</actor>
+            <actor>Вильхельм Бломгрен</actor>
+            <actor>Уилл Поултер</actor>
+            <actor>Эллора Торчиа</actor>
+        </cast>
+        <releaseDate>2019-07-03</releaseDate>
+        <boxOffice currency="USD">47900000</boxOffice>
+        <ageRating>18+</ageRating>
+        <viewerCount>3500000</viewerCount>
+        <originalLanguage>Английский</originalLanguage>
+    </film>
+
+    <film id="4">
+        <title>Меланхолия</title>
+        <genres>
+            <genre>Драма</genre>
+            <genre>Фантастика</genre>
+            <genre>Арт-хаус</genre>
+        </genres>
+        <directors>
+            <director>Ларс фон Триер</director>
+        </directors>
+        <composers>
+            <composer>Рихард Вагнер</composer>
+        </composers>
+        <cast>
+            <actor>Кирстен Данст</actor>
+            <actor>Шарлотта Генсбур</actor>
+            <actor>Кифер Сазерленд</actor>
+            <actor>Шарлотта Рэмплинг</actor>
+            <actor>Джон Хёрт</actor>
+            <actor>Александр Скарсгард</actor>
+        </cast>
+        <releaseDate>2011-05-18</releaseDate>
+        <boxOffice currency="USD">16000000</boxOffice>
+        <ageRating>16+</ageRating>
+        <viewerCount>2000000</viewerCount>
+        <originalLanguage>Английский</originalLanguage>
+    </film>
+
+    <film id="5">
+        <title>Восемь с половиной</title>
+        <genres>
+            <genre>Драма</genre>
+            <genre>Арт-хаус</genre>
+            <genre>Фэнтези</genre>
+        </genres>
+        <directors>
+            <director>Федерико Феллини</director>
+        </directors>
+        <composers>
+            <composer>Нино Рота</composer>
+        </composers>
+        <cast>
+            <actor>Марчелло Мастроянни</actor>
+            <actor>Клаудия Кардинале</actor>
+            <actor>Анук Эме</actor>
+            <actor>Сандра Мило</actor>
+            <actor>Барбара Стил</actor>
+        </cast>
+        <releaseDate>1963-02-14</releaseDate>
+        <boxOffice currency="USD">2000000</boxOffice>
+        <ageRating>16+</ageRating>
+        <viewerCount>5000000</viewerCount>
+        <originalLanguage>Итальянский</originalLanguage>
+    </film>
+
+    <film id="6">
+        <title>Анатомия падения</title>
+        <genres>
+            <genre>Драма</genre>
+            <genre>Триллер</genre>
+            <genre>Судебная драма</genre>
+        </genres>
+        <directors>
+            <director>Жюстин Трие</director>
+        </directors>
+        <composers>
+            <composer>50 Cent</composer>
+        </composers>
+        <cast>
+            <actor>Сандра Хюллер</actor>
+            <actor>Сванн Арло</actor>
+            <actor>Мило Машадо Гранер</actor>
+            <actor>Антуан Рейнарц</actor>
+            <actor>Самюэль Тейс</actor>
+        </cast>
+        <releaseDate>2023-05-21</releaseDate>
+        <boxOffice currency="EUR">50000000</boxOffice>
+        <ageRating>18+</ageRating>
+        <viewerCount>4500000</viewerCount>
+        <originalLanguage>Французский</originalLanguage>
+    </film>
+
+    <film id="7">
+        <title>Бесславные ублюдки</title>
+        <genres>
+            <genre>Боевик</genre>
+            <genre>Военный</genre>
+            <genre>Драма</genre>
+            <genre>Комедия</genre>
+        </genres>
+        <directors>
+            <director>Квентин Тарантино</director>
+        </directors>
+        <composers>
+            <composer>Эннио Морриконе</composer>
+        </composers>
+        <cast>
+            <actor>Брэд Питт</actor>
+            <actor>Кристоф Вальц</actor>
+            <actor>Мелани Лоран</actor>
+            <actor>Майкл Фассбендер</actor>
+            <actor>Эли Рот</actor>
+            <actor>Даян Крюгер</actor>
+            <actor>Тиль Швайгер</actor>
+        </cast>
+        <releaseDate>2009-05-20</releaseDate>
+        <boxOffice currency="USD">321500000</boxOffice>
+        <ageRating>18+</ageRating>
+        <viewerCount>25000000</viewerCount>
+        <originalLanguage>Английский</originalLanguage>
+    </film>
+
+    <film id="8">
+        <title>Чёрный лебедь</title>
+        <genres>
+            <genre>Триллер</genre>
+            <genre>Драма</genre>
+            <genre>Психологический триллер</genre>
+        </genres>
+        <directors>
+            <director>Даррен Аронофски</director>
+        </directors>
+        <composers>
+            <composer>Клинт Мэнселл</composer>
+        </composers>
+        <cast>
+            <actor>Натали Портман</actor>
+            <actor>Мила Кунис</actor>
+            <actor>Венсан Кассель</actor>
+            <actor>Барбара Херши</actor>
+            <actor>Вайнона Райдер</actor>
+        </cast>
+        <releaseDate>2010-09-01</releaseDate>
+        <boxOffice currency="USD">329400000</boxOffice>
+        <ageRating>18+</ageRating>
+        <viewerCount>20000000</viewerCount>
+        <originalLanguage>Английский</originalLanguage>
+    </film>
+
+    <film id="9">
+        <title>Пила</title>
+        <genres>
+            <genre>Ужасы</genre>
+            <genre>Триллер</genre>
+            <genre>Детектив</genre>
+        </genres>
+        <directors>
+            <director>Джеймс Ван</director>
+        </directors>
+        <composers>
+            <composer>Чарли Клоузер</composer>
+        </composers>
+        <cast>
+            <actor>Кэри Элвес</actor>
+            <actor>Ли Уоннелл</actor>
+            <actor>Дэнни Гловер</actor>
+            <actor>Моника Поттер</actor>
+            <actor>Тобин Белл</actor>
+        </cast>
+        <releaseDate>2004-01-19</releaseDate>
+        <boxOffice currency="USD">103900000</boxOffice>
+        <ageRating>18+</ageRating>
+        <viewerCount>15000000</viewerCount>
+        <originalLanguage>Английский</originalLanguage>
+    </film>
+
+    <film id="10">
+        <title>Жить</title>
+        <genres>
+            <genre>Драма</genre>
+        </genres>
+        <directors>
+            <director>Василий Сигарев</director>
+        </directors>
+        <composers>
+            <composer>Павел Додонов</composer>
+        </composers>
+        <cast>
+            <actor>Яна Троянова</actor>
+            <actor>Ольга Лапшина</actor>
+            <actor>Алексей Филимонов</actor>
+            <actor>Евгения Образцова</actor>
+        </cast>
+        <releaseDate>2012-01-26</releaseDate>
+        <boxOffice currency="RUB">8000000</boxOffice>
+        <ageRating>18+</ageRating>
+        <viewerCount>50000</viewerCount>
+        <originalLanguage>Русский</originalLanguage>
+    </film>
+
+    <film id="11">
+        <title>Зона интересов</title>
+        <genres>
+            <genre>Драма</genre>
+            <genre>Исторический</genre>
+            <genre>Военный</genre>
+        </genres>
+        <directors>
+            <director>Джонатан Глейзер</director>
+        </directors>
+        <composers>
+            <composer>Мика Леви</composer>
+        </composers>
+        <cast>
+            <actor>Кристиан Фридель</actor>
+            <actor>Сандра Хюллер</actor>
+            <actor>Иоганн Карнер</actor>
+            <actor>Луис Ноа Виттиш</actor>
+            <actor>Нели Аренд</actor>
+            <actor>Лили Яльник</actor>
+        </cast>
+        <releaseDate>2023-05-19</releaseDate>
+        <boxOffice currency="USD">53200000</boxOffice>
+        <ageRating>16+</ageRating>
+        <viewerCount>4000000</viewerCount>
+        <originalLanguage>Немецкий</originalLanguage>
+    </film>
+
+    <film id="12">
+        <title>Забавные игры</title>
+        <genres>
+            <genre>Триллер</genre>
+            <genre>Ужасы</genre>
+            <genre>Криминал</genre>
+        </genres>
+        <directors>
+            <director>Михаэль Ханеке</director>
+        </directors>
+        <composers>
+            <composer>Без композитора</composer>
+        </composers>
+        <cast>
+            <actor>Сюзанна Лотар</actor>
+            <actor>Ульрих Мюэ</actor>
+            <actor>Арно Фриш</actor>
+            <actor>Франк Гиринг</actor>
+        </cast>
+        <releaseDate>1997-05-14</releaseDate>
+        <boxOffice currency="EUR">500000</boxOffice>
+        <ageRating>18+</ageRating>
+        <viewerCount>300000</viewerCount>
+        <originalLanguage>Немецкий</originalLanguage>
+    </film>
+
+    <film id="13">
+        <title>Белая лента</title>
+        <genres>
+            <genre>Драма</genre>
+            <genre>Детектив</genre>
+            <genre>Исторический</genre>
+        </genres>
+        <directors>
+            <director>Михаэль Ханеке</director>
+        </directors>
+        <composers>
+            <composer>Без композитора</composer>
+        </composers>
+        <cast>
+            <actor>Кристиан Фридель</actor>
+            <actor>Леони Бенеш</actor>
+            <actor>Ульрих Тукур</actor>
+            <actor>Урсина Ларди</actor>
+            <actor>Бургхарт Клаусснер</actor>
+            <actor>Сюзанна Лотар</actor>
+        </cast>
+        <releaseDate>2009-05-21</releaseDate>
+        <boxOffice currency="EUR">30000000</boxOffice>
+        <ageRating>16+</ageRating>
+        <viewerCount>3000000</viewerCount>
+        <originalLanguage>Немецкий</originalLanguage>
+    </film>
+
+    <film id="14">
+        <title>Метрополис</title>
+        <genres>
+            <genre>Фантастика</genre>
+            <genre>Драма</genre>
+            <genre>Немое кино</genre>
+        </genres>
+        <directors>
+            <director>Фриц Ланг</director>
+        </directors>
+        <composers>
+            <composer>Готтфрид Хуппертц</composer>
+        </composers>
+        <cast>
+            <actor>Бригитта Хельм</actor>
+            <actor>Альфред Абель</actor>
+            <actor>Густав Фрёлих</actor>
+            <actor>Рудольф Кляйн-Рогге</actor>
+        </cast>
+        <releaseDate>1927-01-10</releaseDate>
+        <boxOffice currency="USD">1300000</boxOffice>
+        <ageRating>12+</ageRating>
+        <viewerCount>10000000</viewerCount>
+        <originalLanguage>Немецкий</originalLanguage>
+    </film>
+
+    <film id="15">
+        <title>М убийца</title>
+        <genres>
+            <genre>Триллер</genre>
+            <genre>Криминал</genre>
+            <genre>Нуар</genre>
+        </genres>
+        <directors>
+            <director>Фриц Ланг</director>
+        </directors>
+        <composers>
+            <composer>Без композитора</composer>
+        </composers>
+        <cast>
+            <actor>Петер Лорре</actor>
+            <actor>Эллен Видман</actor>
+            <actor>Инге Ландгут</actor>
+            <actor>Отто Вернике</actor>
+            <actor>Густав Грюндгенс</actor>
+        </cast>
+        <releaseDate>1931-05-11</releaseDate>
+        <boxOffice currency="USD">200000</boxOffice>
+        <ageRating>16+</ageRating>
+        <viewerCount>2000000</viewerCount>
+        <originalLanguage>Немецкий</originalLanguage>
+    </film>
+</films>
